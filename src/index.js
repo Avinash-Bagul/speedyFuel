@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { SignUpProvider } from './context/SignUpContext';
+import { BuyFuelProvider } from './context/BuyFuelContex';
+import { LoginDataProvider } from './context/LoginContex';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <SignUpProvider>
+        <LoginDataProvider>
+          <BuyFuelProvider>
+            <App />
+          </BuyFuelProvider>
+        </LoginDataProvider>
+      </SignUpProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
