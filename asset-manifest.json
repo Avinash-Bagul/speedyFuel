@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/speedyFuel/static/css/main.35e2ff7f.css",
-    "main.js": "/speedyFuel/static/js/main.95c16c8b.js",
+    "main.css": "/speedyFuel/static/css/main.26df7c29.css",
+    "main.js": "/speedyFuel/static/js/main.fd1b2c33.js",
     "static/js/592.79451e17.chunk.js": "/speedyFuel/static/js/592.79451e17.chunk.js",
     "static/media/sect1.png": "/speedyFuel/static/media/sect1.bf3a4f1b69b550a4a1e8.png",
-    "static/media/heroBg.jpg": "/speedyFuel/static/media/heroBg.ea82d2a9532940aafa6c.jpg",
     "static/media/sect2.png": "/speedyFuel/static/media/sect2.90ec7ab53295e7a92633.png",
     "static/media/heroBg3.jpg": "/speedyFuel/static/media/heroBg3.e4f7d1295f5f99057ed3.jpg",
+    "static/media/herobg-mobile.jpg": "/speedyFuel/static/media/herobg-mobile.4df531c0d486996830fe.jpg",
     "static/media/profile.png": "/speedyFuel/static/media/profile.ba46fba41160c4fa6f39.png",
     "index.html": "/speedyFuel/index.html",
-    "main.35e2ff7f.css.map": "/speedyFuel/static/css/main.35e2ff7f.css.map",
-    "main.95c16c8b.js.map": "/speedyFuel/static/js/main.95c16c8b.js.map",
+    "main.26df7c29.css.map": "/speedyFuel/static/css/main.26df7c29.css.map",
+    "main.fd1b2c33.js.map": "/speedyFuel/static/js/main.fd1b2c33.js.map",
     "592.79451e17.chunk.js.map": "/speedyFuel/static/js/592.79451e17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35e2ff7f.css",
-    "static/js/main.95c16c8b.js"
+    "static/css/main.26df7c29.css",
+    "static/js/main.fd1b2c33.js"
   ]
 }
