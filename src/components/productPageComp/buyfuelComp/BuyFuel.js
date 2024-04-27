@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useGlobalSignUpContext } from "../../../context/SignUpContext";
 import { useGlobalBuyFuel } from "../../../context/BuyFuelContex";
 import { useGlobalLoginData } from "../../../context/LoginContex";
-import Navbar2 from "../Navbar2";
 import { useNavigate } from "react-router-dom";
 
 

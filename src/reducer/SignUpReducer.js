@@ -16,12 +16,6 @@ const SignUpReducer = (state1, action) => {
             break;
     }
 
-    // if (action.type === "SET_ACCOUNT_DATA") {
-    //     return {
-    //         account: [...state.account, action.payload],
-    //         ...state,
-    //     }
-    // }
 }
 
 export default SignUpReducer;

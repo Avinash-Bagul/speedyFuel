@@ -13,7 +13,7 @@ const Reports = () => {
 
     return (
         <>
-            <div className="bg-report pt-5">
+            <div className="bg-report pt-0 pt-md-5">
 
                 <div className="container h-100vh py-5 py-md-0">
                     <div className="row h-100 d-flex justify-content-center align-items-center">
@@ -24,13 +24,13 @@ const Reports = () => {
 
                             <div className="row details reportBox d-flex justify-content-b ">
                                 <div className="px-2 py-3 px-md-5">
-                                    
+
                                     <div className=" w-100 d-flex justify-content-start">
                                         <div><p>Order Status</p></div>
                                     </div>
                                     <div className="row d-flex justify-content-end">
                                         <div className=" col-12 col-lg-6 d-flex w-100 justify-content-end ">
-                                            {singleData[0].status === 'confirmed' ? (<><p className="me-3"></p> <span className="text-capitalize text-success">{singleData[0].status}</span></>) : (<><p className="me-3"></p> <span className="text-capitalize text-danger">{singleData[0].status}</span></>)}
+                                            {singleData[0].status === 'pending' ? (<><p className="me-3"></p> <span className="text-capitalize text-success">{singleData[0].status}</span></>) : (<><p className="me-3"></p> <span className="text-capitalize text-danger">{singleData[0].status}</span></>)}
                                         </div>
                                     </div>
                                     <hr />
@@ -101,7 +101,7 @@ const Reports = () => {
                                         <NavLink to="/myorders" className="btn btn-outline-primary">Go Back</NavLink>
                                     </div>
                                     <div className="cancel">
-                                        {singleData[0].status === 'confirmed' ? <div className="btn btn-outline-danger" onClick={() => {
+                                        {singleData[0].status === 'pending' ? <div className="btn btn-outline-danger" onClick={() => {
                                             cancelOrder(id)
                                         }}>Cancel Order</div> : null}
 

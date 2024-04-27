@@ -15,7 +15,7 @@ const Home = () => {
                 sect_order="0"
                 sub_h="SIMPLIFY"
                 sect_h="FAST DELIVERY"
-                sect_para="Experience lightning-fast fuel delivery with SpeedyFuel. Our dedicated team ensures that your fuel order reaches you promptly, so you never have to worry about running low on gas again. With our efficient logistics system and strategic partnerships, we guarantee quick and reliable delivery of fuel right to your doorstep."
+                sect_para="Experience lightning-fast fuel delivery with SpeedyFuel. Our dedicated team ensures that your fuel order reaches you promptly. With our efficient logistics system and strategic partnerships, we guarantee quick and reliable delivery of fuel right to your doorstep."
                 btn1="More"
                 btn2="Log in"
                 btn2_to='/login'
@@ -28,7 +28,7 @@ const Home = () => {
                 sect_order="1"
                 sub_h=""
                 sect_h="RELIABLE SELLERS"
-                sect_para="Trust only the best. SpeedyFuel partners with industry-leading fuel providers to ensure that you receive high-quality and reliable fuel every time. Our vast network of sellers undergoes rigorous screening and quality checks, so you can have peace of mind knowing that your fuel source is trustworthy. Experience worry-free fueling with SpeedyFuel - your go-to platform for reputable fuel sellers."
+                sect_para="Trust only the best. SpeedyFuel partners with industry-leading fuel providers to ensure that you receive high-quality and reliable fuel every time. Our vast network of sellers undergoes rigorous screening and quality checks. Experience worry-free fueling with SpeedyFuel - your go-to platform for reputable fuel sellers."
                 btn1="Buy Fuel"
                 btn2="More"
                 btn1_to="/buyfuel"
@@ -37,9 +37,9 @@ const Home = () => {
             />
 
 
-            <Signin/>
+            <Signin />
 
-            <Contact/>
+            <Contact />
         </>
     )
 }

@@ -322,11 +322,14 @@ p {
 
   .navcss {
     position: relative;
+    font-size: 120%;
   }
+
   .dropdown-menu[data-bs-popper] {
     top: 100% !important;
   }
-  .profile{
+
+  .profile {
     position: absolute;
     left: -80px;
   }
@@ -341,6 +344,9 @@ p {
   .sec2 .w-50,
   .signin .w-50 {
     width: 100% !important;
+  }
+  .buyfuel, .dash{
+    height: 90vh !important;
   }
 
   #home .w-50 {
@@ -360,14 +366,14 @@ p {
   }
 
   .hero .h-100vh {
-    height: 100vh;
+    height: 90vh;
   }
 
   .bg-hero-mobile {
-    background-image: url("../src/imges/heroBg.jpg");
+    background-image: url("../src/imges/herobg-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: center;
   }
 
   .text-mobile-light {
@@ -424,7 +430,8 @@ p {
   .bg-report .h-100vh {
     height: max-content;
   }
-  .bg-report .w-50{
+
+  .bg-report .w-50 {
     width: 100% !important;
   }
 
@@ -449,6 +456,7 @@ p {
   html {
     font-size: 80%;
   }
+
   .navcss {
     height: max-content;
     text-align: center;
@@ -457,6 +465,7 @@ p {
   #home .w-50 {
     width: auto !important;
   }
+
   .sec2 .w-50,
   .signin .w-50 {
     width: 100% !important;

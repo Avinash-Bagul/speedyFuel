@@ -5,9 +5,9 @@ const BuyFuelReducer = (state2, action) => {
     switch (action.type) {
         case "SET_ORDER_REQ":
             const setdate = `${today.getDate()}/${today.getMonth() + 1}/${today.getFullYear()}`;
-            const setStatus = "confirmed";
+            const setStatus = "pending";
             // const ind = action.payload.length-1;
-            console.log(state2);
+            // console.log(state2);
             // console.log(state2.orderRequest[state2.totalOrders-1].orderid);
             let setorderid = state2.orderRequest.length + 1;
             let setTime = `${today.toLocaleTimeString()}`
@@ -51,7 +51,7 @@ const BuyFuelReducer = (state2, action) => {
                 }
             });
 
-            console.log(update);
+            // console.log(update);
 
             return {
                 ...state2,
