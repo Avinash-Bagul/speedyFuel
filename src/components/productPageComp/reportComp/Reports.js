@@ -96,12 +96,12 @@ const Reports = () => {
                                 </div>
                             </div>
                             <div className="row my-3 d-flex justify-content-end px-3">
-                                <div className="col-10 col-md-3 d-flex justify-content-end p-0">
+                                <div className="col-10 col-md-4 d-flex justify-content-end p-0">
                                     <div className="goback">
                                         <NavLink to="/myorders" className="btn btn-outline-primary">Go Back</NavLink>
                                     </div>
                                     <div className="cancel">
-                                        {singleData[0].status === 'pending' ? <div className="btn btn-outline-danger" onClick={() => {
+                                        {singleData[0].status === 'pending' ? <div className="btn btn-outline-danger ms-2" onClick={() => {
                                             cancelOrder(id)
                                         }}>Cancel Order</div> : null}
 

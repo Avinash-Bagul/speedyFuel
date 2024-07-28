@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Boxes = (props) => {
     return (
         <>
-            <div className="col-8 col-md-5 mx-1 bg-Dark-gray box">
+            <div className="col-8 col-md-3 bg-Dark-gray box mb-3 mb-md-0">
                 <div className="d-flex h-100 flex-column justify-content-center align-items-center">
                     <div className=" info d-flex flex-column justify-content-around align-items-center">
                         <p className="fs-4 text-dark">{props.tit}</p>

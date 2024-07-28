@@ -5,9 +5,9 @@ const BuyFuelContex = createContext();
 
 const getBuyFuelData = () => {
     const localOrderData = localStorage.getItem("orders");
-    const OrderDataRef = []
+    const OrderDataRef = [];
     if (localOrderData === OrderDataRef || localOrderData === null) {
-        return []
+        return [];
     }
     else {
         return JSON.parse(localOrderData);

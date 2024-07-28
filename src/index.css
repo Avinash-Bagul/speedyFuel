@@ -214,6 +214,10 @@ a {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.boxjusti {
+  justify-content: space-between;
+}
+
 /* buyfuel page */
 .h-500px {
   height: 500px;
@@ -345,8 +349,14 @@ p {
   .signin .w-50 {
     width: 100% !important;
   }
-  .buyfuel, .dash{
+
+  .buyfuel,
+  .dash {
     height: 90vh !important;
+  }
+
+  .boxjusti {
+    justify-content: center;
   }
 
   #home .w-50 {
@@ -391,6 +401,9 @@ p {
 
   .buyfuel .h-500px {
     height: 450px;
+  }
+  .bg-report {
+    background-color: var(--white);
   }
 
   .buyfuel .h-40px {
@@ -458,7 +471,6 @@ p {
   }
 
   .navcss {
-    height: max-content;
     text-align: center;
   }
 

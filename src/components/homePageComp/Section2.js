@@ -29,7 +29,7 @@ const Section2 = (props) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-6">
+                    <div className="col-8 col-md-6">
                         <div className="img">
                             <img src={props.img} alt="" className=" img-fluid"/>
                             
